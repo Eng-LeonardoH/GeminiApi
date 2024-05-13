@@ -33,6 +33,8 @@ O modelo Gemini, parte das ofertas de IA generativa do Google, é projetado para
    - Instale as bibliotecas necessárias, incluindo aquelas para integração com a API do Google.
 2. **Configuração de API**:
    - Configure a chave de API necessária para autenticar o uso do modelo Gemini do Google.
+   - Pegue sua API gratuitamente através do link:
+   - Cole sua api no campo indicado dentro do script. Vá para lá: https://github.com/Eng-LeonardoH/GeminiApi/blob/907f4080063da81f0159aff87cc53e4a8ce2386b/main.py#L12
 3. **Execução**:
    - Execute o script no IPython ou Jupyter Notebook.
    - Interaja com o sistema de chat enviando perguntas ou comentários e receba respostas do modelo Gemini.
