@@ -9,7 +9,7 @@ def to_markdown(text):
   text = text.replace('*', '')
   return Markdown(textwrap.indent(text, "" ,predicate=lambda _: True))
 
-genai.configure(api_key="AIzaSyBndBpTLOrKNziUW6fXYTMr85QrhmHvKXE")
+genai.configure(api_key="<Digite sua API aqui>")
 generationConfig = {
     "candidate_count": 1,
     "temperature": 1,
